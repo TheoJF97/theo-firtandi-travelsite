@@ -1,0 +1,63 @@
+/* HERO SECTION  */
+.hero {
+  background-color: #fefaf5;
+  text-align: left;
+}
+
+.hero__slogan {
+  color: #335576;
+}
+
+.hero__cta-button {
+  background-color: #db7a4e;
+  border-radius: 1rem;
+  color: white;
+  border: 0 none;
+  width: 8rem;
+  height: 2rem;
+}
+
+.hero__cta-button:hover {
+  opacity: 0.8;
+}
+
+/* RECOMMENDATIONS */
+.recommendations {
+  background-color: white;
+}
+
+.recommendations__title {
+  color: #335576;
+}
+
+.recommendations-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card__container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.card__img {
+  width: 60%;
+}
+
+.card__img:hover {
+  opacity: 0.8;
+}
+
+.card__title {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 7rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.card__link {
+  display: flex;
+  justify-content: center;
+}
