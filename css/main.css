@@ -1,7 +1,9 @@
 /* HERO SECTION  */
 .hero {
-  background-color: #fefaf5;
   text-align: left;
+  display: flex;
+  justify-content: center;
+  height: 150px;
 }
 
 .hero__slogan {
@@ -19,6 +21,17 @@
 
 .hero__cta-button:hover {
   opacity: 0.8;
+}
+
+.hero-text-container {
+  width: 47%;
+}
+
+.hero-img-container {
+  width: 50%;
+}
+.hero__img {
+  width: 25%;
 }
 
 /* RECOMMENDATIONS */
