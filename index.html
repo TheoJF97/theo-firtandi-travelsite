@@ -9,16 +9,20 @@
     <title>Travel Site</title>
   </head>
   <body class="body">
-    <!-- HEADER + NAVBAR -->
+    <!-- HEADER + NAVBAR SECTION-->
     <header class="header">
       <nav class="nav-bar">
-        <a href="./index.html" class="nav-bar__logo-link">
+        <a href="index.html" class="nav-bar__logo-link">
           <p class="nav-bar__logo-title">Travel Site</p>
         </a>
         <section class="nav-bar__links">
-          <ul class="nav-bar-items">
+          <ul class="nav-bar-list">
             <li class="nav-bar-item">
-              <a href="./index.html" class="nav-item__link">Home</a>
+              <a
+                href="./index.html"
+                class="nav-item__link nav-item__link--active"
+                >Home</a
+              >
             </li>
             <li class="nav-bar-item">
               <a href="./pages/hawaii.html" class="nav-item__link">Hawaii</a>
@@ -42,22 +46,19 @@
           Don't let your dreams be just dreams. Experience the world by booking
           a vacation with us now.
         </p>
-        <a href="" class="hero__cta">
+        <a href="index.html" class="hero__cta">
           <button class="hero__cta-button">Get started</button>
         </a>
       </div>
-
-      <div class="hero-img-container">
-        <img src="./assets/Images/hero.png" alt="hero-im" class="hero__img" />
-      </div>
+      <img src="./assets/Images/hero.png" alt="hero-img" class="hero__img" />
     </section>
 
-    <!-- RECOMMENDATIONS -->
+    <!-- RECOMMENDATIONS SECTION -->
     <section class="recommendations">
       <h2 class="recommendations__title">Recommendations</h2>
       <div class="recommendations-container">
         <a href="./pages/hawaii.html" class="card__link">
-          <div class="card__container">
+          <div class="card-container">
             <img
               src="./assets/Images/hawaii.jpg"
               alt="hawaii-portrait"
@@ -68,7 +69,7 @@
         </a>
 
         <a href="./pages/iceland.html" class="card__link">
-          <div class="card__container">
+          <div class="card-container">
             <img
               src="./assets/Images/iceland.jpg"
               alt="iceland-portrait"
@@ -79,7 +80,7 @@
         </a>
 
         <a href="./pages/greece.html" class="card__link">
-          <div class="card__container">
+          <div class="card-container">
             <img
               src="./assets/Images/greece.jpg"
               alt="greece-portrait"
@@ -91,24 +92,34 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- FOOTER SECTION -->
     <footer class="footer">
-      <div class="footer-container-desc">
+
+      <div class="footer-container">
         <h2 class="footer__title">Contact</h2>
         <p class="footer__sub-title">EMAIL</p>
         <p class="footer__info">info@travelsite.com</p>
       </div>
-      <h2 class="footer__title">Hours</h2>
-      <div class="footer-container-desc">
-        <p class="footer__sub-title">MONDAY - FRIDAY</p>
-        <p class="footer__info">9:00 AM - 5:00 PM</p>
-        <p class="footer__sub-title">SATURDAY</p>
-        <p class="footer__info">10:00 AM - 4:00 PM</p>
-        <p class="footer__sub-title">SUNDAY</p>
-        <p class="footer__info">Closed</p>
+
+      <div class="footer-container--hours">
+        <h2 class="footer__title">Hours</h2>
+        <div class="footer-hours-box">
+          <div class="footer-day-hours">
+            <p class="footer__sub-title">MONDAY - FRIDAY</p>
+            <p class="footer__info">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer-day-hours">
+            <p class="footer__sub-title">SATURDAY</p>
+            <p class="footer__info">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-day-hours">
+            <p class="footer__sub-title">SUNDAY</p>
+            <p class="footer__info">Closed</p>
+          </div>
+        </div>
       </div>
 
-      <div class="footer-container-desc">
+      <div class="footer-container">
         <h2 class="footer__title">Social</h2>
         <a href="https://www.instagram.com/" class="footer-social__link">
           <img

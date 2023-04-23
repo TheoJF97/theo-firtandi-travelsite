@@ -9,76 +9,94 @@
     <title>Iceland</title>
   </head>
   <body class="body">
-    <!-- HEADER + NAVBAR -->
+    <!-- HEADER + NAVBAR SECTION -->
     <header class="header">
       <nav class="nav-bar">
-        <a href="./index.html" class="nav-bar__logo-link">
+        <a href="../index.html" class="nav-bar__logo-link">
           <p class="nav-bar__logo-title">Travel Site</p>
         </a>
         <section class="nav-bar__links">
-          <ul class="nav-bar-items">
+          <ul class="nav-bar-list">
             <li class="nav-bar-item">
-              <a href="./index.html" class="nav-item__link">Home</a>
+              <a href="../index.html" class="nav-item__link">Home</a>
             </li>
             <li class="nav-bar-item">
-              <a href="./pages/hawaii.html" class="nav-item__link">Hawaii</a>
+              <a href="./hawaii.html" class="nav-item__link">Hawaii</a>
             </li>
             <li class="nav-bar-item">
-              <a href="./pages/iceland.html" class="nav-item__link">Iceland</a>
+              <a
+                href="./iceland.html"
+                class="nav-item__link nav-item__link--active"
+                >Iceland</a
+              >
             </li>
             <li class="nav-bar-item">
-              <a href="./pages/greece.html" class="nav-item__link">Greece</a>
+              <a href="./greece.html" class="nav-item__link">Greece</a>
             </li>
           </ul>
         </section>
       </nav>
     </header>
 
-    <!-- HERO -->
+    <!-- HERO SECTION -->
     <section class="hero hero--iceland">
       <h1 class="hero__title">Iceland</h1>
       <div class="itinerary-container">
         <div class="itinerary-card">
           <p class="itinerary-card__day">Friday</p>
-          <p class="itinerary-card__activity">Breakfast</p>
-          <p class="itinerary-card__activity">Lunch</p>
-          <p class="itinerary-card__activity">Dinner</p>
-          <p class="itinerary-card__activity">Dancing</p>
+          <ul class="itinerary-activity-list">
+            <li class="itinerary-activity__activity">Breakfast</li>
+            <li class="itinerary-activity__activity">Lunch</li>
+            <li class="itinerary-activity__activity">Dinner</li>
+            <li class="itinerary-activity__activity">Hiking</li>
+          </ul>
         </div>
         <div class="itinerary-card">
           <p class="itinerary-card__day">Saturday</p>
-          <p class="itinerary-card__activity">Breakfast</p>
-          <p class="itinerary-card__activity">Lunch</p>
-          <p class="itinerary-card__activity">Dinner</p>
-          <p class="itinerary-card__activity">Dancing</p>
+          <ul class="itinerary-activity-list">
+            <li class="itinerary-activity__activity">Breakfast</li>
+            <li class="itinerary-activity__activity">Lunch</li>
+            <li class="itinerary-activity__activity">Dinner</li>
+            <li class="itinerary-activity__activity">Hiking</li>
+          </ul>
         </div>
         <div class="itinerary-card">
           <p class="itinerary-card__day">Sunday</p>
-          <p class="itinerary-card__activity">Breakfast</p>
-          <p class="itinerary-card__activity">Lunch</p>
-          <p class="itinerary-card__activity">Dinner</p>
-          <p class="itinerary-card__activity">Dancing</p>
+          <ul class="itinerary-activity-list">
+            <li class="itinerary-activity__activity">Breakfast</li>
+            <li class="itinerary-activity__activity">Lunch</li>
+            <li class="itinerary-activity__activity">Dinner</li>
+            <li class="itinerary-activity__activity">Hiking</li>
+          </ul>
         </div>
       </div>
     </section>
-    <!-- FOOTER -->
+
+    <!-- FOOTER SECTION -->
     <footer class="footer">
-      <div class="footer-container-desc">
+      <div class="footer-container">
         <h2 class="footer__title">Contact</h2>
         <p class="footer__sub-title">EMAIL</p>
         <p class="footer__info">info@travelsite.com</p>
       </div>
-      <h2 class="footer__title">Hours</h2>
-      <div class="footer-container-desc">
-        <p class="footer__sub-title">MONDAY - FRIDAY</p>
-        <p class="footer__info">9:00 AM - 5:00 PM</p>
-        <p class="footer__sub-title">SATURDAY</p>
-        <p class="footer__info">10:00 AM - 4:00 PM</p>
-        <p class="footer__sub-title">SUNDAY</p>
-        <p class="footer__info">Closed</p>
+      <div class="footer-container--hours">
+        <h2 class="footer__title">Hours</h2>
+        <div class="footer-hours-box">
+          <div class="footer-day-hours">
+            <p class="footer__sub-title">MONDAY - FRIDAY</p>
+            <p class="footer__info">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer-day-hours">
+            <p class="footer__sub-title">SATURDAY</p>
+            <p class="footer__info">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-day-hours">
+            <p class="footer__sub-title">SUNDAY</p>
+            <p class="footer__info">Closed</p>
+          </div>
+        </div>
       </div>
-
-      <div class="footer-container-desc">
+      <div class="footer-container">
         <h2 class="footer__title">Social</h2>
         <a href="https://www.instagram.com/" class="footer-social__link">
           <img
